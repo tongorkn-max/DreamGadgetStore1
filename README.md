@@ -14,7 +14,7 @@ https://dreamgadgetstore.gt.tc/
 
 # GitHub Repository
 
-(Add your GitHub repository link here)
+https://github.com/tongorkn-max/DreamGadgetStore
 
 ---
 
@@ -74,39 +74,40 @@ The system includes a professional reporting module.
 
 # Technologies Used
 
-Frontend
+## Frontend
 
 - HTML5
 - CSS3
 - Bootstrap 5
 - JavaScript
 
-Backend
+## Backend
 
 - PHP 8
 
-Database
+## Database
 
 - MySQL
 
-Server
+## Server
 
 - Apache (XAMPP)
 
-Deployment
+## Deployment
 
 - InfinityFree
 
-Version Control
+## Version Control
 
 - Git
 - GitHub
+- GitHub Actions
 
 ---
 
 # Folder Structure
 
-```
+```text
 DreamGadgetStore/
 
 admin/
@@ -125,6 +126,8 @@ login.php
 register.php
 
 README.md
+Dockerfile
+docker-compose.yml
 ```
 
 ---
@@ -134,7 +137,7 @@ README.md
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/DreamGadgetStore.git
+git clone https://github.com/tongorkn-max/DreamGadgetStore.git
 ```
 
 ---
@@ -142,16 +145,15 @@ git clone https://github.com/YOUR_USERNAME/DreamGadgetStore.git
 ## Import Database
 
 1. Open phpMyAdmin
+2. Create a database named:
 
-2. Create database
-
-```
+```text
 dream_gadget_store
 ```
 
-3. Import
+3. Import:
 
-```
+```text
 dream_gadget_store.sql
 ```
 
@@ -159,13 +161,13 @@ dream_gadget_store.sql
 
 ## Configure Database
 
-Edit
+Edit:
 
-```
+```text
 config/db.php
 ```
 
-Update
+Update:
 
 ```php
 $host="localhost";
@@ -178,93 +180,48 @@ $database="dream_gadget_store";
 
 ## Run
 
-Start
+Start:
 
 - Apache
-
 - MySQL
 
-Visit
+Visit:
 
-```
+```text
 http://localhost/DreamGadgetStore
 ```
 
 ---
 
-# Default Login
+# Administrator Login
 
-## Administrator
+**Username**
 
-Username
-
-```
+```text
 admin
 ```
 
-Password
+**Password**
 
-```
+```text
 admin123
 ```
-
-(Replace with your administrator password.)
 
 ---
 
 # Screenshots
 
-## Home Page
+- Home Page
+- Products
+- Shopping Cart
+- Checkout
+- Admin Dashboard
+- Reports Dashboard
+- Customer Report
+- Sales Report
+- Monthly Report
 
-(Add screenshot)
-
----
-
-## Products
-
-(Add screenshot)
-
----
-
-## Shopping Cart
-
-(Add screenshot)
-
----
-
-## Checkout
-
-(Add screenshot)
-
----
-
-## Admin Dashboard
-
-(Add screenshot)
-
----
-
-## Reports Dashboard
-
-(Add screenshot)
-
----
-
-## Customer Report
-
-(Add screenshot)
-
----
-
-## Sales Report
-
-(Add screenshot)
-
----
-
-## Monthly Report
-
-(Add screenshot)
+(Add screenshots before submission.)
 
 ---
 
