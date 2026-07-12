@@ -1,0 +1,44 @@
+name: Dream Gadget Store CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+
+  php-validation:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+
+    - name: Check PHP Version
+      run: php -v
+
+    - name: Find PHP Files
+      run: find . -name "*.php"
+
+    - name: PHP Syntax Check
+      run: |
+        find . -name "*.php" -print0 | while IFS= read -r -d '' file
+        do
+          php -l "$file"
+        done
+
+    - name: CI Passed
+      run: echo "Dream Gadget Store passed all PHP syntax checks."
