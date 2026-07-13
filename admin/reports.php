@@ -26,6 +26,23 @@ FROM orders
 
 $total_revenue = $total_sales['total'] ?? 0;
 
+/* ===========================
+   MONTHLY SALES
+=========================== */
+
+$monthly_sales = mysqli_fetch_assoc(mysqli_query($conn,"
+SELECT SUM(total_amount) AS total
+FROM orders
+WHERE MONTH(order_date)=MONTH(CURDATE())
+AND YEAR(order_date)=YEAR(CURDATE())
+"));
+
+$monthly_sales_total = $monthly_sales['total'] ?? 0;
+
+/* ===========================
+   PAYMENT STATISTICS
+=========================== */
+
 $pending_payment = mysqli_num_rows(mysqli_query($conn,"
 SELECT *
 FROM orders

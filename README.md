@@ -279,20 +279,51 @@ admin123
 
 # 📷 Screenshots
 
-Include screenshots of:
+## 🏠 Home Page
 
-- Home Page
-- Product Page
-- Shopping Cart
-- Checkout
-- Customer Dashboard
-- Admin Dashboard
-- Product Management
-- Category Management
-- Reports Dashboard
-- Docker Running Containers
-- GitHub Repository
-- GitHub Actions Successful Workflow
+![Home Page](screenshots/home-page.png)
+
+---
+
+## 🛍️ Products Page
+
+![Products Page](screenshots/products-page.png)
+
+---
+
+## 🛒 Shopping Cart
+
+![Shopping Cart](screenshots/shopping-cart.png)
+
+---
+
+## 💳 Checkout
+
+![Checkout](screenshots/checkout-page.png)
+
+---
+
+## 📊 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## 📦 Product Management
+
+![Product Management](screenshots/product-management.png)
+
+---
+
+## 📈 Reports Dashboard
+
+![Reports Dashboard](screenshots/reports-dashboard.png)
+
+---
+
+## 🐳 Docker Desktop
+
+![Docker Desktop](screenshots/docker-desktop.png)
 
 ---
 
