@@ -1,31 +1,43 @@
 # 📱 Dream Gadget Store
 
-A modern, responsive E-Commerce Web Application developed using PHP, MySQL, Bootstrap 5, HTML, CSS and JavaScript.
+A modern, responsive E-Commerce Web Application developed using **PHP, MySQL, Bootstrap 5, HTML5, CSS3, JavaScript, Docker, and GitHub Actions**.
 
-The system allows customers to browse products, add items to the shopping cart, place orders and manage their accounts, while administrators can manage products, customers, categories, orders, reports and business analytics through a secure dashboard.
+Dream Gadget Store enables customers to browse electronic products, search products, manage shopping carts, place orders, and contact the store. The system also provides administrators with a professional dashboard to manage products, categories, customers, orders, reports, and business analytics.
 
 ---
 
-# Live Demo
+# 🌐 Live Demo
 
 https://dreamgadgetstore.gt.tc/
 
 ---
 
-# GitHub Repository
+# 📂 GitHub Repository
 
-https://github.com/tongorkn-max/DreamGadgetStore
+https://github.com/tongorkn-max/DreamGadgetStore1
 
 ---
 
-# Features
+# 📋 Project Objectives
 
-## Customer Features
+The project was developed to:
+
+- Build a responsive E-Commerce Web Application.
+- Demonstrate PHP and MySQL web development.
+- Implement a professional Admin Management System.
+- Apply Git version control and GitHub collaboration.
+- Implement Continuous Integration (CI) using GitHub Actions.
+- Containerize the application using Docker and Docker Compose.
+- Deploy the application online.
+
+---
+
+# 🚀 Customer Features
 
 - Home Page
 - Product Catalog
-- Product Search
 - Product Categories
+- Product Search
 - Product Details
 - Shopping Cart
 - Checkout
@@ -38,9 +50,9 @@ https://github.com/tongorkn-max/DreamGadgetStore
 
 ---
 
-## Administrator Features
+# 🔐 Administrator Features
 
-- Secure Admin Login
+- Secure Administrator Login
 - Dashboard
 - Product Management
 - Category Management
@@ -48,31 +60,81 @@ https://github.com/tongorkn-max/DreamGadgetStore
 - Order Management
 - Message Management
 - Reports Dashboard
-- Monthly Reports
 - Sales Reports
+- Monthly Reports
 - Customer Reports
 - Business Analytics
 - Print Reports
-- Export Reports
+- Export Reports (PDF & Excel)
 - Revenue Statistics
+- Professional Responsive Admin Interface
 
 ---
 
-# Reports Module
+# 📊 Reports Module
 
-The system includes a professional reporting module.
+The reporting system includes:
 
 - Sales Report
-- Monthly Report
+- Monthly Sales Report
 - Customer Report
 - Business Summary
 - Print Report
-- Export Report
-- Performance Analytics
+- Export to PDF
+- Export to Excel
+- Revenue Analytics
 
 ---
 
-# Technologies Used
+# 🐳 Docker Containerization
+
+The application is fully containerized using Docker.
+
+Docker Components:
+
+- Dockerfile
+- Docker Compose
+- PHP 8.2 Apache Container
+- MySQL 8 Container
+- Automatic Database Initialization
+- Shared Volumes
+- Container Networking
+
+Run the project using:
+
+```bash
+docker compose up --build
+```
+
+Access the application:
+
+```
+http://localhost:8080
+```
+
+---
+
+# 🔄 Continuous Integration (CI/CD)
+
+GitHub Actions has been implemented for Continuous Integration.
+
+The pipeline performs:
+
+- Source Code Checkout
+- PHP Environment Setup
+- Dependency Installation
+- Automated Build
+- Automated Workflow Execution
+
+Workflow file:
+
+```
+.github/workflows/php.yml
+```
+
+---
+
+# 💻 Technologies Used
 
 ## Frontend
 
@@ -89,13 +151,14 @@ The system includes a professional reporting module.
 
 - MySQL
 
-## Server
+## Local Development
 
-- Apache (XAMPP)
+- XAMPP
 
-## Deployment
+## Containerization
 
-- InfinityFree
+- Docker
+- Docker Compose
 
 ## Version Control
 
@@ -103,82 +166,69 @@ The system includes a professional reporting module.
 - GitHub
 - GitHub Actions
 
+## Deployment
+
+- InfinityFree
+
 ---
 
-# Folder Structure
+# 📁 Project Structure
 
 ```text
-DreamGadgetStore/
+DreamGadgetStore1/
 
-admin/
-assets/
-config/
-database/
-images/
-uploads/
-
-index.php
-products.php
-cart.php
-checkout.php
-contact.php
-login.php
-register.php
-
-README.md
-Dockerfile
-docker-compose.yml
+├── .github/
+│   └── workflows/
+│       └── php.yml
+│
+├── admin/
+├── assets/
+├── config/
+├── docker/
+│   └── init/
+│
+├── images/
+├── uploads/
+│
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── README.md
+├── index.php
+└── ...
 ```
 
 ---
 
-# Installation
+# ⚙️ Installation
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/tongorkn-max/DreamGadgetStore.git
+git clone https://github.com/tongorkn-max/DreamGadgetStore1.git
 ```
 
 ---
 
-## Import Database
+## Database Setup (XAMPP)
 
-1. Open phpMyAdmin
-2. Create a database named:
+1. Start Apache and MySQL.
+2. Open phpMyAdmin.
+3. Create a database:
 
-```text
-dream_gadget_store
+```
+dream_gadget_store1
 ```
 
-3. Import:
+4. Import:
 
-```text
-dream_gadget_store.sql
 ```
-
----
-
-## Configure Database
-
-Edit:
-
-```text
-config/db.php
-```
-
-Update:
-
-```php
-$host="localhost";
-$user="root";
-$password="";
-$database="dream_gadget_store";
+if0_42269432_dream_gadget_store.sql
 ```
 
 ---
 
-## Run
+## Run Locally
 
 Start:
 
@@ -187,45 +237,77 @@ Start:
 
 Visit:
 
-```text
-http://localhost/DreamGadgetStore
+```
+http://localhost/Dream_gadget_store1
 ```
 
 ---
 
-# Administrator Login
+# 🐳 Run with Docker
+
+Build and start the containers:
+
+```bash
+docker compose up --build
+```
+
+Visit:
+
+```
+http://localhost:8080
+```
+
+---
+
+# 🔑 Administrator Login
 
 **Username**
 
-```text
+```
 admin
 ```
 
 **Password**
 
-```text
+```
 admin123
 ```
 
+(Change according to your database if different.)
+
 ---
 
-# Screenshots
+# 📷 Screenshots
+
+Include screenshots of:
 
 - Home Page
-- Products
+- Product Page
 - Shopping Cart
 - Checkout
+- Customer Dashboard
 - Admin Dashboard
+- Product Management
+- Category Management
 - Reports Dashboard
-- Customer Report
-- Sales Report
-- Monthly Report
-
-(Add screenshots before submission.)
+- Docker Running Containers
+- GitHub Repository
+- GitHub Actions Successful Workflow
 
 ---
 
-# Future Improvements
+# 🔒 Security Features
+
+- SQL Injection Prevention
+- Session Authentication
+- Input Validation
+- Secure Administrator Access
+- Password Protection
+- Database Connection Validation
+
+---
+
+# 🔮 Future Improvements
 
 - Online Payment Gateway
 - Email Notifications
@@ -236,31 +318,25 @@ admin123
 - Multi-language Support
 - Inventory Forecasting
 - AI Product Recommendation
+- REST API Integration
+- Mobile Application
 
 ---
 
-# Security
-
-- SQL Injection Prevention
-- Session Authentication
-- Password Encryption
-- Input Validation
-- Secure Admin Access
-
----
-
-# Developer
+# 👨‍💻 Developer
 
 **Tongor Korden**
 
+Bachelor of Science in Information Systems
+
 University of Lay Adventists of Kigali (UNILAK)
 
-Bachelor of Science in Information Systems
+Kigali, Rwanda
 
 ---
 
-# License
+# 📜 License
 
-This project was developed for academic purposes.
+This project was developed for academic purposes at the University of Lay Adventists of Kigali (UNILAK).
 
-© 2026 Tongor Korden
+© 2026 Tongor Korden. All Rights Reserved.

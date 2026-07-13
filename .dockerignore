@@ -1,0 +1,9 @@
+.git
+.github
+.gitignore
+.vscode
+.idea
+node_modules
+README.md
+*.log
+*.sql
