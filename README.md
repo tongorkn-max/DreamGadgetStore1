@@ -1,11 +1,36 @@
 # 📱 Dream Gadget Store
 
+E-Commerce Web Application Project Report
+
+Student Name: Tongor Korden
+
+Student ID:25253/2024
+
+University: University of Lay Adventists of Kigali (UNILAK)
+
+Programme: Bachelor of Science in Information Systems
+
+Course: E-Commerce and Web Application
+
+Lecturer: Eric Maniraguha
+
+Academic Year: 2026
+
+Introduction:
+Dream Gadget Store is a modern web-based E-Commerce application developed to simplify the buying and selling of electronic products online. The system provides customers with a convenient shopping experience while allowing administrators to efficiently manage products, categories, customers, orders, and reports through an integrated administration dashboard.
+
+The project was developed using PHP, MySQL, HTML5, CSS3, Bootstrap 5, and JavaScript. To follow modern software engineering practices, Git and GitHub were used for version control, Docker was used for application containerization, GitHub Actions implemented Continuous Integration (CI), and InfinityFree was used to deploy the application online.
 A modern, responsive E-Commerce Web Application developed using **PHP, MySQL, Bootstrap 5, HTML5, CSS3, JavaScript, Docker, and GitHub Actions**.
 
 Dream Gadget Store enables customers to browse electronic products, search products, manage shopping carts, place orders, and contact the store. The system also provides administrators with a professional dashboard to manage products, categories, customers, orders, reports, and business analytics.
 
 ---
+Problem Statement
 
+Many small businesses still rely on manual methods or outdated systems for managing products, customer information, and sales records. These methods often lead to inaccurate records, delayed customer service, and inefficient business operations.
+
+The Dream Gadget Store system was developed to provide an online platform where customers can browse products, place orders, and manage their accounts while enabling administrators to efficiently manage business operations through a secure web application.
+---
 # 🌐 Live Demo
 
 https://dreamgadgetstore.gt.tc/
@@ -19,16 +44,18 @@ https://github.com/tongorkn-max/DreamGadgetStore1
 ---
 
 # 📋 Project Objectives
+The objectives of this project were to:
 
-The project was developed to:
-
-- Build a responsive E-Commerce Web Application.
-- Demonstrate PHP and MySQL web development.
-- Implement a professional Admin Management System.
-- Apply Git version control and GitHub collaboration.
-- Implement Continuous Integration (CI) using GitHub Actions.
-- Containerize the application using Docker and Docker Compose.
-- Deploy the application online.
+- Develop a responsive E-Commerce website.
+- Allow customers to browse products by category.
+- Implement customer registration and login.
+- Provide shopping cart and checkout functionality.
+- Enable administrators to manage products and categories.
+- Generate business reports and sales analytics.
+- Implement version control using Git and GitHub.
+- Containerize the application using Docker.
+- Implement Continuous Integration using GitHub Actions.
+- Deploy the application online using InfinityFree.
 
 ---
 
@@ -351,9 +378,30 @@ admin123
 - AI Product Recommendation
 - REST API Integration
 - Mobile Application
-
+  
 ---
+Challenges Encountere
 
+Several challenges were experienced during development, including:
+
+- Configuring Docker Desktop.
+- Installing Windows Subsystem for Linux (WSL).
+- Connecting Docker to MySQL.
+- Managing Git merge conflicts.
+- Configuring GitHub Actions.
+- Deploying the application to InfinityFree.
+- Managing database configuration for local, Docker, and online environments.
+
+These challenges were resolved through testing, debugging, and configuration improvements.
+---
+Conclusion
+
+The Dream Gadget Store project successfully demonstrates the development of a complete E-Commerce web application using modern web development technologies.
+
+The system provides customers with an efficient online shopping platform while enabling administrators to manage products, customers, orders, and reports through a secure dashboard. The integration of GitHub, GitHub Actions, Docker, and InfinityFree demonstrates the application of modern software engineering practices, including version control, continuous integration, containerization, and deployment.
+
+Overall, the project achieved its objectives and provides a scalable foundation for future enhancements and real-world business applications.
+---
 # 👨‍💻 Developer
 
 **Tongor Korden**
