@@ -33,7 +33,7 @@ The Dream Gadget Store system was developed to provide an online platform where 
 ---
 # 🌐 Live Demo
 
-https://dreamgadgetstore.gt.tc/
+https://dreamgadgetstore1.site.je
 
 ---
 
